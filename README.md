@@ -1,2 +1,4 @@
 # castor-web
-(Temporary) website for space tech club castor
+
+cd castor-web
+npm start
