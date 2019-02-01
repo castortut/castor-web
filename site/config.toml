@@ -19,6 +19,11 @@ title = "Castor"
         name = "Contact"
         url = "/contact"
         weight = 3
+    [[menu.nav]]
+         identifier = "join"
+         name = "Join!"
+         url = "/join"
+         weight = 4
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details:

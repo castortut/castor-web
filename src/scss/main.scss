@@ -19,7 +19,7 @@ body {
   min-height: calc(100vh);
 }
 
-p {
+p, li {
   font-family: $montserrat;
   color: $white-color
 }
@@ -89,6 +89,20 @@ h2 {
 
 .small-container {
   max-width: 768px;
+}
+
+.not-found {
+  position: relative;
+  top: 50vh;
+  transform: translateY(-50%);
+
+  h1 {
+    margin-top: 0;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
 }
 
 @media (max-width: 767px) {

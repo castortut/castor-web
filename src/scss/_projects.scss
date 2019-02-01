@@ -20,4 +20,15 @@
   }
 }
 
-
+.project-container {
+  text-align: left;
+  h1 {
+    text-align: center;
+  }
+  .project-banner {
+    width: 100%;
+    height: 24rem;
+    margin-bottom: 2rem;
+    object-fit: cover;
+  }
+}
