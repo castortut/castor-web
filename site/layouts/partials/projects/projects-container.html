@@ -1,0 +1,13 @@
+<section class="upmost last">
+  <div class="container">
+    <div class="section-header">
+      <h1>Projects</h1>
+      <h2>made in hervanta</h2>
+    </div>
+    <div class="projects-list-container">
+      {{ range .Data.Pages.ByParam "rank" }}
+        {{ partial "projects/projects-card.html" . }}
+      {{ end }}
+    </div>
+  </div>
+</section>
