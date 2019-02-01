@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 132 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:10;">
+    <g transform="matrix(1,0,0,1,-577.765,-1409.47)">
+        <g transform="matrix(1,0,0,1.82924,0,0)">
+            <g transform="matrix(1.0416,0,0,0.859613,577.01,254.868)">
+                <g transform="matrix(1,0,0,0.662414,0,588.262)">
+                    <path d="M100.2,65.6C101.2,63.4 101.7,60.9 101.7,58.3C101.7,47.3 91.7,38.3 79.3,38.3C73.9,38.3 69,40 65.2,42.8C61.2,36.7 53.9,32.6 45.4,32.6C32.8,32.6 22.5,41.8 22.5,53C22.5,56.4 23.4,59.6 25,62.4C19.5,65.7 15.8,71.3 15.8,77.6C15.8,85.8 21.9,92.8 30.3,95.1C30.3,95.1 93.1,95.3 94.5,95.3C104.1,95.3 111.8,88.9 111.8,80.3C112,73.5 107.1,67.7 100.2,65.6Z" style="fill:none;stroke:white;stroke-width:3px;"/>
+                </g>
+                <g transform="matrix(1,0,0,0.662414,0,588.262)">
+                    <circle cx="49.3" cy="66.7" r="5.3" style="fill:none;stroke:white;stroke-width:3px;"/>
+                    <g transform="matrix(0.966553,0,0,0.301579,2.59943,45.7179)">
+                        <path d="M53.8,63L73.2,52" style="fill:none;stroke:white;stroke-width:3px;"/>
+                    </g>
+                    <g transform="matrix(0.57533,0,0,0.61324,22.8473,27.2279)">
+                        <path d="M53.8,70.4L73.2,81.5" style="fill:none;stroke:white;stroke-width:3px;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-9.42443,-4.89017)">
+                        <circle cx="78.7" cy="84.2" r="5.3" style="fill:none;stroke:white;stroke-width:3px;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-0.0488657,11)">
+                        <circle cx="78.7" cy="50.4" r="5.3" style="fill:none;stroke:white;stroke-width:3px;"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

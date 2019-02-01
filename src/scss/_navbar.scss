@@ -1,0 +1,55 @@
+.navbar.navbar-dark {
+  padding: 0 1rem;
+  background-color: $black-color-transparent;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  text-transform: lowercase;
+  .navbar-brand {
+    font-size: 1.50em;
+    text-align: left;
+    font-family: $majormonodisplay;
+    color: $white-color;
+    .brand-img {
+      height: 80px;
+      fill: $white-color;
+    }
+  }
+  .nav-link {
+    font-family: $majormonodisplay;
+    color: $white-color-transparent;
+    padding: 1rem 0.75rem;
+    &:hover {
+      color: $white-color;
+    }
+    &.active {
+      background: $white-color;
+      color: $white-color-transparent;
+      -webkit-backdrop-filter: saturate(180%) blur(20px);
+      backdrop-filter: saturate(180%) blur(20px);
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar.navbar-dark {
+    padding: 0;
+    .container {
+      max-width: 100%;
+      .navbar-brand {
+        font-size: 1.25em;
+        padding: 0.5rem;
+        margin: 0;
+      }
+      .navbar-toggler {
+        margin: 0.5rem;
+      }
+      .nav-item {
+        border-top: 1px $white-color-transparent solid;
+        text-align: center;
+        &:first-of-type {
+          border-top: none;
+        }
+      }
+    }
+  }
+}

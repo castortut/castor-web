@@ -1,9 +1,31 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "My new Victor-Hugo site"
+title = "Castor"
+
+[menu]
+    [[menu.nav]]
+        identifier = "club-room"
+        name = "Club Room"
+        url = "/club-room"
+        weight = 1
+    [[menu.nav]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects"
+        weight = 2
+    [[menu.nav]]
+        identifier = "board"
+        name = "Board"
+        url = "/board"
+        weight = 3
+    [[menu.nav]]
+        identifier = "contact"
+        name = "Contact"
+        url = "/contact"
+        weight = 4
 
 # RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
+# See configuration options for more details:
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
