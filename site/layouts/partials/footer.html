@@ -1,7 +1,7 @@
 <footer>
   <div class="container footer-container">
     <div class="row">
-      {{ range (where .Data.Pages "Section" "footer").ByParam "rank" }}
+      {{ range first 4 ((where .Site.Pages "Section" "footer").ByParam "rank") }}
       <div class="col-3">
         <a class="footer-link" href="{{ .Params.link }}"><img class="footer-icon" src="{{ .Params.icon }}" height="40px"/></a>
       </div>

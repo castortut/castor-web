@@ -1,0 +1,16 @@
+<section class="upmost">
+  <div class="container small-container">
+    <div class="section-header">
+      <h1>Contact</h1>
+      <h2>Our contact details</h2>
+    </div>
+    <div class="row">
+      {{ range last 2 ((where .Site.Pages "Section" "addresses").ByParam "rank") }}
+        <div class="col-md-6 contact-card">
+          <h3>{{ .Params.Title}}</h3>
+          {{ .Content}}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
