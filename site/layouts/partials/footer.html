@@ -3,9 +3,10 @@
     <div class="row">
       {{ range first 4 ((where .Site.Pages "Section" "footer").ByParam "rank") }}
       <div class="col-3">
-        <a class="footer-link" href="{{ .Params.link }}"><img class="footer-icon" src="{{ .Params.icon }}" height="40px"/></a>
+        <a class="footer-link" href="{{ .Params.link }}" target="_blank">{{ .Params.icon | safeHTML }}</a>
       </div>
       {{ end }}
     </div>
+    <p class="footer-text">Club evenings every Tuesday, 6pm, room SI011.</p>
   </div>
 </footer>

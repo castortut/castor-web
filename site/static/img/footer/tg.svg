@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 31 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-915.385,-1896.74)">
-        <g transform="matrix(1,0,0,1.50963,6,905.153)">
-            <g transform="matrix(1,-0,-0,0.662414,909.385,656.839)">
-                <use xlink:href="#_Image1" x="0" y="0" width="30.078px" height="30px" transform="matrix(0.97025,0,0,1,0,0)"/>
-            </g>
-        </g>
-    </g>
-    <defs>
-        <image id="_Image1" width="31px" height="30px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeCAYAAADU8sWcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACcUlEQVRIib2Xy0tVURSHv30rsycRkhQ4KjCV6IVQ9KBJFFETKygMbBBNoknDKCIigqJR0KQ/oNAaNCkriIQegmhNJKhIcJCDiLQXouXX4Nxrt5vnnnN89JudvfZe395rr7NYO5BSagOwB9gMrAaqgbnAMDAAvAaeA/dCCG/S+i0HnK0eVDvNpifqPnXWZMGN6quM0FJ1qPVZwSfU0SmCCxpWm9NAc+rlaYKW6kw5cFCPzxBYdUxtKmaGIvh6oCfT/WTXCLAshDA0DlcriH6XpTMMB/gA1IQQxnL5gUP/CQywAtg4/qX2T+PdPlbr1Cp1KGZOvxpQd0wDsE89oFYVHSioP8qsacgBOycZvu/AOaAWWAncAXb7p6ptBeaVWb8J9WGGE/5SbxlFa9yxWq8+UNcWjV1K8NWG+j4FtEs9qlYXb11doF5Te9VVJbaOBJ/vUD/HGD+qF9U1E8VMPWyUOC9KN5W39yXAv5WDn1LnT+B0pXrfqGLdVRdNMKdSHUmAf00K+3e1VW1Wa9XTRveuekOdExOVpgSw6tusCVfQBTVMBM7DW1P4aMsBXXFOyuh8CMEy9sYUPtpzwKOM4C8hhJ9GRWRxzJwlKfx0FipRlvLanV9z1Sgnthd7VBcaJWM59au5woKWDPDb6s2Ssevmk8+oC0rStuLdVhj/y6XVgFqjfkqYN6jOhr+biQ1Ad6bbz65RomZiECBXZHgJnJxBsMCRAvhfa9RAXpli+ON0Nt0W9ZjJ5TGtRtSWbDHSdWrPFMFPjZ5Z2WX0XNrv5J5Le81ndZxi63PJJgJQD+wCtgB1wHKgEvhB1Pn2As+A9rQPxd/p53J/LueMYwAAAABJRU5ErkJggg=="/>
-    </defs>
+<svg width="100%" height="100%" viewBox="0 0 240 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <path d="M120,0C186.23,0 240,53.77 240,120C240,186.23 186.23,240 120,240C53.77,240 0,186.23 0,120C0,53.77 53.77,0 120,0ZM100.043,144.407L155.685,94.195C158.127,92.028 155.151,90.971 151.909,92.937L83.236,136.262L53.573,127.003C47.168,125.042 47.122,120.64 55.012,117.475L170.602,72.904C175.881,70.507 180.976,74.172 178.961,82.253L159.276,175.016C157.901,181.607 153.919,183.184 148.4,180.139L118.414,157.985L104,172C102.326,173.628 101,175 98,175L100.042,144.411L100.04,144.41L100.042,144.408L100.042,144.407L100.043,144.407Z" style="fill:white;"/>
 </svg>

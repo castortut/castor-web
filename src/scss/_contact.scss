@@ -41,6 +41,10 @@
 
     .board-card {
       text-align: center;
+
+      &:nth-child(odd) {
+        border-right: none;
+      }
     }
   }
 }

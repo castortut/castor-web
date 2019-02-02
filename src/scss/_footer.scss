@@ -6,9 +6,29 @@ footer {
 
   .footer-container {
     max-width: 512px;
-  }
 
-  .footer-icon {
-    margin-bottom: 3rem;
+    .footer-link {
+      height: 40px;
+      width: 40px;
+      svg {
+        height: 40px;
+        margin-bottom: 1.5rem;
+        path, circle {
+          fill: #ffffff;
+        }
+      }
+      &:hover {
+        svg {
+          path, circle {
+            fill: #cccccc;
+          }
+        }
+      }
+    }
+
+    .footer-text {
+      font-size: 0.75rem;
+      margin-bottom: 1rem;
+    }
   }
 }
