@@ -1,5 +1,5 @@
 ---
-title: su.pi.ko.i.ra
+title: supikoira
 banner: /img/supikoira.jpg
 rank: 4
 ---
