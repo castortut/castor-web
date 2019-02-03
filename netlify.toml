@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "npm run build -b=https://castor-next.netlify.com"
   publish = "dist"
 
 [context.deploy-preview]
