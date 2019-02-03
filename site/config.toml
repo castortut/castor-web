@@ -1,4 +1,5 @@
 baseurl = "/"
+productionurl = "https://castor-next.netlify.com/"
 languageCode = "en-us"
 languageLang = "en"
 title = "Castor"
