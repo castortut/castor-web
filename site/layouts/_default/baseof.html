@@ -5,22 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
     
-    <meta property="og:title" content="Castor - {{ .Params.title }}" />
+    <meta property="og:title" content="Space technology club Castor - {{ .Params.title }}" />
     <meta property="og:url" content="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}{{ .Permalink }}" />
     <meta property="og:image" content="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}{{ .Params.banner }}">
   
     {{ if .Params.description }}
-    <meta property="description" content="{{ .Params.description }}">
+    <meta name="description" content="{{ .Params.description }}">
     <meta property="og:description" content="{{ .Params.description }}">
     {{ else }}
-    <meta property="description" content="{{ replace .Summary "\n" " " }}">
+    <meta name="description" content="{{ replace .Summary "\n" " " }}">
     <meta property="og:description" content="{{ replace .Summary "\n" " " }}">
     {{ end }}
   
     <meta name="referrer" content="no-referrer">
     <link rel="canonical" href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}{{ .Permalink }}"/>
   
-    <title>Castor - {{ .Params.title }}</title>
+    <title>Space technology club Castor - {{ .Params.title }}</title>
   
     <link rel="icon" href="/favicon.ico"/>
     <link rel='mask-icon' href='img/favicons/brain-dark.svg' color='#FF530D'>
