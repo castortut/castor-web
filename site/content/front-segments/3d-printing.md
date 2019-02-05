@@ -3,5 +3,4 @@ title: 3D printing
 banner: /img/printer.svg
 rank: 3
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare purus dui, sit amet tempus ante fringilla ac. Vestibulum consequat vel lorem eget viverra. Maecenas fringilla pharetra ex ut sollicitudin.
+Our club room hosts Megaprinter, a self-made printer with the largest work area in Pirkanmaa. In addition, we have a Prusa for smaller work. We have extensive experience in 3D-printing and modeling for printers!
