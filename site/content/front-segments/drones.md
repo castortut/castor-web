@@ -3,5 +3,4 @@ title: Drones
 banner: /img/drone.svg
 rank: 2
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare purus dui, sit amet tempus ante fringilla ac. Vestibulum consequat vel lorem eget viverra. Maecenas fringilla pharetra ex ut sollicitudin.
+Quadcopters? Hexacopters? FPV? Many of our members have constructed copters and fly them. If you're interested in getting started with your own, we can give you the tips to get it done, and you can assemble it with the Cave's tools.
