@@ -3,5 +3,4 @@ title: Rocketry
 banner: /img/rockets.svg
 rank: 1
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare purus dui, sit amet tempus ante fringilla ac. Vestibulum consequat vel lorem eget viverra. Maecenas fringilla pharetra ex ut sollicitudin.
+Interested in building your own rockets? We have a license to sell rocket motors, and hold the small course where you can get yours to buy them. Come launch a few with us!
