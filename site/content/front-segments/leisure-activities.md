@@ -3,5 +3,4 @@ title: Leisure activities
 banner: /img/leisure.svg
 rank: 5
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare purus dui, sit amet tempus ante fringilla ac. Vestibulum consequat vel lorem eget viverra. Maecenas fringilla pharetra ex ut sollicitudin.
+The Cave has a lounge with a big project screen, drinks and food. We gather to watch any bigger rocket launches, go to the movies when there's something space-related, and celebrate Yuri Gagarin's day every year on the 12th of April.
