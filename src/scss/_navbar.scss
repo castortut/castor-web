@@ -4,13 +4,15 @@
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
   text-transform: lowercase;
+  border-bottom: 1px solid $white-color;
   .navbar-brand {
     font-size: 2.5em;
     text-align: left;
     font-family: $majormonodisplay;
     color: $white-color;
     .brand-img {
-      height: 50px;
+      margin-left: 5px;
+      height: 42px;
       fill: $white-color;
     }
   }
@@ -30,7 +32,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .navbar.navbar-dark {
     padding: 0;
     .container {
@@ -46,9 +48,6 @@
       .nav-item {
         border-top: 1px $white-color-transparent solid;
         text-align: center;
-        &:first-of-type {
-          border-top: none;
-        }
       }
     }
   }
