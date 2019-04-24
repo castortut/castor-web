@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
-    
+
     <meta property="og:title" content="Space technology club Castor - {{ .Params.title }}" />
     <meta property="og:url" content="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}{{ .Permalink }}" />
     <meta property="og:image" content="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}{{ .Params.banner }}">
-  
+
     {{ if .Params.description }}
     <meta name="description" content="{{ .Params.description }}">
     <meta property="og:description" content="{{ .Params.description }}">
@@ -16,12 +16,12 @@
     <meta name="description" content="{{ replace .Summary "\n" " " }}">
     <meta property="og:description" content="{{ replace .Summary "\n" " " }}">
     {{ end }}
-  
+
     <meta name="referrer" content="no-referrer">
     <link rel="canonical" href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}{{ .Permalink }}"/>
-  
+
     <title>Space technology club Castor - {{ .Params.title }}</title>
-  
+
     <link rel="icon" href="/favicon.ico"/>
     <link rel='mask-icon' href='img/favicons/brain-dark.svg' color='#FF530D'>
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png" />
@@ -44,9 +44,22 @@
     <meta name="msapplication-square150x150logo" content="img/favicons/mstile-150x150.png" />
     <meta name="msapplication-wide310x150logo" content="img/favicons/mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="img/favicons/mstile-310x310.png" />
-    
+
     <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="css/main.min.css"/>
+
+    <!-- Hotjar Tracking Code for https://avaruuskerho.fi -->
+    <script>
+      (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1293366,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+
   </head>
   <body style="background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 0%,rgba(0,0,0,0) 70%), no-repeat bottom center url('../img/background.jpg')">
 
@@ -55,7 +68,7 @@
     {{ block "main" . }}{{end}}
 
     {{ block "footer" . }}{{ partial "footer" . }}{{end}}
-    
+
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script defer src="app.js"></script>
   </body>
