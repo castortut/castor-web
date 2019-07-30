@@ -43,6 +43,12 @@ collapseElements.forEach((el) => {
   el.addEventListener('click', handleCollapseElementClick)
 });
 
+window.addEventListener("load", () => {
+  setTimeout(() =>
+      document.getElementById("telegram").href = "http" + "s://t" + "." + "me" + "/avaruus" + "kerho",
+    1000);
+});
+
 if (window.netlifyIdentity) {
   window.netlifyIdentity.on("init", user => {
     if (!user) {

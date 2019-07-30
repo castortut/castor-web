@@ -83,4 +83,5 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Icon", name: "icon", widget: "string"}
       - {label: "Link", name: "link", widget: "string"}
+      - {label: "Id", name: "id", widget: "string"}
       - {label: "Order number", name: "rank", widget: "number"}
