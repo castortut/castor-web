@@ -46,7 +46,11 @@
     <meta name="msapplication-square310x310logo" content="img/favicons/mstile-310x310.png" />
 
     <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.min.css"/>
+
+    {{ $stylesheet := .Site.Data.webpack.main }}
+    {{ with $stylesheet.css }}
+      <link href="{{ relURL . }}" rel="stylesheet">
+    {{ end }}
 
     <!-- Hotjar Tracking Code for https://avaruuskerho.fi -->
     <script>
@@ -70,6 +74,10 @@
     {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <script defer src="app.js"></script>
+
+    {{ $script := .Site.Data.webpack.main }}
+    {{ with $script.js }}
+      <script src="{{ relURL . }}"></script>
+    {{ end }}
   </body>
 </html>
