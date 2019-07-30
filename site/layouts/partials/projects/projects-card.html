@@ -3,8 +3,13 @@
     <div class="col-lg-4 project-card-banner-container">
       {{ with .Params.banner }}
       {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
-      {{ $resized := $imageResource.Fill "380x300" }}
-      <img class="project-card-banner" src="{{ $resized.RelPermalink }}" />
+      {{ $resizedLarge := $imageResource.Fill "720x384" }}
+      {{ $resizedSmall := $imageResource.Fill "384x300" }}
+      <picture>
+        <source media="(min-width: 996px)" srcset="{{ $resizedSmall.RelPermalink }}">
+        <source media="(min-width: 576px)" srcset="{{ $resizedLarge.RelPermalink }}">
+        <img class="project-card-banner" src="{{ $resizedSmall.RelPermalink }}" />
+      </picture>
       {{ end }}
     </div>
     <div class="col-lg-8 project-card-text">
