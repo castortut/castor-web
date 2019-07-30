@@ -7,7 +7,7 @@
 
     <meta property="og:title" content="Space technology club Castor - {{ .Params.title }}" />
     <meta property="og:url" content="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}{{ .Permalink }}" />
-    <meta property="og:image" content="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}{{ .Params.banner }}">
+    <meta property="og:image" content="/img/background.jpg">
 
     {{ if .Params.description }}
     <meta name="description" content="{{ .Params.description }}">

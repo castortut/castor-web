@@ -2,7 +2,6 @@
 title: Join
 subtitle: Become a spaceman today!
 description: Become a member of Castor today by filling out this form.
-banner: /img/background.jpg
 ---
 
 If you wish to pay the membership fee (5€/year) the account is:

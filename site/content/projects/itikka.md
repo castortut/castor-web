@@ -1,6 +1,6 @@
 ---
 title: itikka
-banner: /img/itikka.jpg
+banner: itikka.jpg
 rank: 3
 ---
 

@@ -3,7 +3,11 @@
 <section class="upmost last">
   <div class="container small-container project-container">
     <h1>{{ .Params.Title }}</h1>
-    <img class="project-banner" src="{{ .Params.Banner}}"/>
+    {{ with .Params.banner }}
+    {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
+    {{ $resized := $imageResource.Fill "738x384" }}
+    <img class="project-banner" src="{{ $resized.RelPermalink }}" />
+    {{ end }}
     {{ .Content }}
   </div>
 </section>

@@ -1,6 +1,6 @@
 ---
 title: Zero-G
-banner: /img/zerog.jpg
+banner: zerog.jpg
 rank: 1
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: MegaPrinter
-banner: /img/megaprinter.jpg
+banner: megaprinter.jpg
 rank: 2
 ---
 

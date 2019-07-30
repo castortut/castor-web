@@ -1,6 +1,6 @@
 ---
 title: quadcopters
-banner: /img/quadcopter.jpg
+banner: quadcopter.jpg
 rank: 5
 ---
 

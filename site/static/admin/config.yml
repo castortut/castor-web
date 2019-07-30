@@ -4,8 +4,8 @@ backend:
 # This line should *not* be indented
 publish_mode: editorial_workflow
 # This line should *not* be indented
-media_folder: "site/static/img" # Media files will be stored in the repo under images
-public_folder: "img" # The src attribute for uploaded media will begin with /images/uploads
+media_folder: "site/content/uploads" # Media files will be stored in the repo under images
+public_folder: "uploads" # The src attribute for uploaded media will begin with /images/uploads
 slug:
   encoding: "ascii"
   clean_accents: true
@@ -18,7 +18,6 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Banner", name: "banner", widget: "image"}
-      - {label: "Banner thumbnail (list)", name: "banner", widget: "image"}
       - {label: "Image description (alt)", name: "alt", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Order number", name: "rank", widget: "number"}
@@ -58,7 +57,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Description (SEO)", name: "description", widget: "string"}
-      - {label: "Banner (SEO)", name: "banner", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "addresses" # Used in routes, e.g., /admin/collections/blog
     label: "Addresses" # Used in the UI
@@ -77,7 +75,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Description (SEO)", name: "description", widget: "string"}
-      - {label: "Banner (SEO)", name: "banner", widget: "image"}
   - name: "footer" # Used in routes, e.g., /admin/collections/blog
     label: "Footer" # Used in the UI
     folder: "site/content/footer" # The path to the folder where the documents are stored
