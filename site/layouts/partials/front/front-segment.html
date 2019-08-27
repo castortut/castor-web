@@ -2,7 +2,7 @@
   <div class="col-md-3 front-segment-icon-container">
     {{ with .Params.banner }}
     {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
-    <img class="front-segment-icon" src="{{ $imageResource.RelPermalink }}" />
+    <img class="front-segment-icon" src="{{ $imageResource.RelPermalink }}" aria-hidden="true"/>
     {{ end }}
   </div>
   <div class="col-md-9 font-segment-text">
