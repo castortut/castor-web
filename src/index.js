@@ -45,7 +45,7 @@ collapseElements.forEach((el) => {
 
 window.addEventListener("load", () => {
   setTimeout(() =>
-      document.getElementById("telegram").href = "http" + "s://t" + "." + "me" + "/avaruus" + "kerho",
+      document.getElementById("telegram").href = "https://t" + "." + "me/joinchat/" + "ASDQH0zRe" + "8hmxB3" + "fRvkTfA",
     1000);
 });
 
