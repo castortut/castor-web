@@ -6,8 +6,6 @@ rank: 2
 ---
 Castor, the space hobby club of Tampere University of Technology has built the university’s biggest and most powerful printer during 2015-2016. The working area of the printer is 500 x 500 x 1000 mm, and it is capable of printing all commonly used plastic materials.
 
-![quad](/uploads/quadcopter.jpg "quadicopter")
-
 The project’s build team consisted of the members of Castor. When finalized, the printer will be available for general use of all club members. The costs of using the printer are going to be minimized by producing the plastic filament ourselves from granules with a separate extruding machine, still being built as of January 2017 by the club. The printer is a generic FDM printer that adds material by heating and extruding plastic on to a heated level.
 
 The build of the printer utilized (at least) skills in the fields of mechanical engineering, electrical engineering, automation science and computer technology. If you are interested in participating in the project, you are welcome to come to the clubroom to ask and marvel at the project! Check the club meeting times from the Info page.
