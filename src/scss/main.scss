@@ -35,7 +35,7 @@ h1 {
 }
 
 h2 {
-  font-size: calc(1rem + 1.5vw);;
+  font-size: calc(1rem + 1.5vw);
   margin-bottom: 1rem;
 }
 
@@ -54,6 +54,18 @@ h2 {
 .front-container-text {
   text-align: left;
   margin-bottom: 6rem;
+}
+
+.collaboration {
+  margin-top: 6rem;
+  h2 {
+    margin-bottom: 3rem;
+  }
+  .sponsor {
+    font-family: $majormonodisplay;
+    font-size: 1.25rem;
+    text-transform: lowercase;
+  }
 }
 
 .space-background {

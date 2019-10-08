@@ -1,4 +1,4 @@
-<section class="front upmost last">
+<section class="front upmost">
   <div class="container small-container">
     <div class="section-header">
       <h1>castor</h1>
@@ -6,13 +6,28 @@
         <h2>tampere university</h2>
     </div>
     <div class="front-container-text">
-      {{ range (where .Data.Pages "Section" "front-container").ByParam "rank" }}
-        <h3>{{ .Params.Title }}</h3>
-        <p>{{ .Content }}</p>
-      {{ end }}
+      <h3>{{ .Params.headline_1 }}</h3>
+      <p>{{ .Params.chapter_1 | markdownify }}</p>
     </div>
-      {{ range (where .Data.Pages "Section" "front-segments").ByParam "rank" }}
-        {{ partial "front/front-segment.html" . }}
-      {{ end }}
+      {{ range .Params.segments }}
+        <div class="row front-segment-container">
+          <div class="col-md-3 front-segment-icon-container">
+            {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" .image ) }}
+            <img class="front-segment-icon" src="{{ $imageResource.RelPermalink }}" aria-hidden="true"/>
+          </div>
+          <div class="col-md-9 font-segment-text">
+            <div>
+              <h3>{{ .title }}</h3>
+              <p>{{ .description | markdownify }}</p>
+            </div>
+          </div>
+        </div>
+    {{ end }}
   </div>
+</section>
+<section class="collaboration last">
+  <h2>in collaboration with</h2>
+  {{ range .Params.sponsors }}
+  <p class="sponsor">{{ .name }}</p>
+  {{ end }}
 </section>
