@@ -58,10 +58,11 @@ h2 {
 
 .space-background {
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
-  transform: translateX(-25%);
+  object-fit: cover;
   z-index: -1130;
+  width: 100%;
 }
 
 .front-segment-container {
