@@ -67,12 +67,12 @@
   </head>
   <body style="background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 0%,rgba(0,0,0,0) 70%)">
     {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch ("background.jpg") }}
-    {{ $resizedLarge := $imageResource.Fill "1440x1700 q80 Bottom" }}
-    {{ $resizedMediumLarge := $imageResource.Fill "1080x1500 q80 Bottom" }}
-    {{ $resizedMedium := $imageResource.Fill "996x1600 q80 Bottom" }}
-    {{ $resizedSmallMedium := $imageResource.Fill "768x1600 q80 Bottom" }}
-    {{ $resizedSmall := $imageResource.Fill "576x2000 q80 Bottom" }}
-    {{ $resizedExtraSmall := $imageResource.Fill "384x1500 q80 Bottom" }}
+    {{ $resizedLarge := $imageResource.Fill "1440x600 q80 Top" }}
+    {{ $resizedMediumLarge := $imageResource.Fill "1080x600 q80 Top" }}
+    {{ $resizedMedium := $imageResource.Fill "996x600 q80 Top" }}
+    {{ $resizedSmallMedium := $imageResource.Fill "768x600 q80 Top" }}
+    {{ $resizedSmall := $imageResource.Fill "576x600 q80 Top" }}
+    {{ $resizedExtraSmall := $imageResource.Fill "384x600 q80 Top" }}
     <picture>
       <source media="(min-width: 1440px)" srcset="{{ $imageResource.RelPermalink }}">
       <source media="(min-width: 1080px)" srcset="{{ $resizedLarge.RelPermalink }}">
