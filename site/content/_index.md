@@ -22,7 +22,7 @@ segments:
       image: leisure.svg
       description: The Cave has a lounge with a big project screen, drinks and food. We gather to watch any bigger rocket launches, go to the movies when there's something space-related, and celebrate Yuri Gagarin's day every year on the 12th of April.
 sponsors:
-    - name: Tampere University department of Physics
+    - name: Tampere University Physics Unit
     - name: Futurice Oy
     - name: OptoFidelity Oy
     - name: Granite Devices Oy
