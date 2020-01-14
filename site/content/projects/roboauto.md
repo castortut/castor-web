@@ -2,7 +2,7 @@
 title: Roboauto
 banner: uploads/roboauto.jpg
 alt: Our v1 car at the June race.
-rank: 2
+rank: 6
 ---
 
 
