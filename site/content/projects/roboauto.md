@@ -1,6 +1,6 @@
 ---
 title: Roboauto
-banner: uploads/roboauto.jpg
+banner: roboauto.jpg
 alt: Our v1 car at the June race.
 rank: 6
 ---
