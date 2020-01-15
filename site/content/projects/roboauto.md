@@ -5,7 +5,6 @@ alt: Our v1 car at the June race.
 rank: 6
 ---
 
-
 In Spring 2019, IT company Futurice challenged Castor to build a self-driving remote controlled car for their race in June. Futurice sponsored the chassis, and we fit it with a camera, a Jetson Nano single-board computer and the open-source Donkeycar software library. The car learns by mirroring what a human driver does on the track: we first manually drive the car on the track, and gather the camera images and throttle/steering data. Then, a convolutional neural network learns what kind of image necessitates which amount of throttle and steering. The race was held at the Särkänniemi bumper car track between different company and university teams. Castor didn't make it to the podium due to a camera failure the night before, but there's always next year! markku.ai has info on Futurice's car.
 
 Future work with the car include modeling and making new hardware parts, optimizing the camera image for driving on a track, testing different neural network structures, and setting new records at the Tietotalo track.
