@@ -3,7 +3,7 @@ title: electronic
 
 ---
 
-**Board email:** castor (at) listmail.tut.fi<br>
+**Board email:** castor (at) lists.tuni.fi<br>
 **Telegram group:** <a href="/" id="telegram">Castor</a><br>
 **Announcement channel:** [Announcements](https://t.me/avaruuskerho)<br>
 **IRC channel:** #castor @ IRCNet<br>
