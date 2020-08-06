@@ -4,12 +4,17 @@ This is the public web site for space tech club Castor at Tampere University.
 
 # Initial setup
 
-1. Install node.js
-2. npm install
-3. npm start
+1. ~~Install node.js~~
+2. ~~npm install~~
+3. ~~npm start~~
+
+1. Install hugo (version used for this site: 0.71.1.)
+2. hugo server
 
 ## How to use after initial setup
 
-1. npm start
+1. ~~npm start~~
+
+1. hugo server
 
 Changes in master branch are published automatically.
