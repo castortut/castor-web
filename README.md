@@ -12,4 +12,4 @@ This is the public web site for space tech club Castor at Tampere University.
 
 1. npm start
 
-Changes in master are published automatically.
+Changes in master branch are published automatically.
