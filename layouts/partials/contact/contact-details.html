@@ -1,16 +1,20 @@
 <section class="upmost">
   <div class="container small-container">
     <div class="section-header">
-      <h1>Contact</h1>
-      <h2>Our contact details</h2>
+      <h1>{{ .Params.title }}</h1>
+      <h2>{{ .Params.subTitle }}</h2>
     </div>
     <div class="row">
-      {{ range last 2 ((where .Site.Pages "Section" "addresses").ByParam "rank") }}
-        <div class="col-md-6 contact-card">
-          <h3>{{ .Params.Title}}</h3>
-          {{ .Content}}
-        </div>
-      {{ end }}
+      <div class="col-md-6 contact-card">
+        <h3>{{ .Params.addressTitle1 }}</h3>
+        {{ range .Params.addressContent1 }}
+          <p class="address-line"><strong>{{ .title }}: </strong>{{ .content | markdownify }}</p>
+        {{ end }}
+      </div>
+      <div class="col-md-6 contact-card">
+        <h3>{{ .Params.addressTitle2 }}</h3>
+        <p>{{ .Params.addressContent2 | safeHTML }}</p>
+      </div>
     </div>
   </div>
 </section>

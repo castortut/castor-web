@@ -1,8 +1,8 @@
 <section class="board-section last">
   <div class="container small-container">
-    <h2>Boards through the ages</h2>
+    <h2>{{ .Params.boardTitle }}</h2>
     <div class="row">
-      {{ range (where .Site.Pages "Section" "boards").ByParam "rank" }}
+      {{ range .Params.boards }}
         {{ partial "contact/contact-board-card.html" . }}
       {{ end }}
     </div>
