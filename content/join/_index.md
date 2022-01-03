@@ -3,7 +3,7 @@ title: Join
 subtitle: Become a spaceman today!
 description: Become a member of Castor today by filling out this form.
 ---
-To get connected with club members and hear about events, check out our Telegram channels in the site footer. During the school year, we meet every Tuesday at 18:00 at our club room in Sähkötalo, SI011. Come see it for yourself!
+To get connected with club members and hear about events, check out our Telegram channels in the site footer. During the school year, we meet every Thursday at 18:00 at our club room in Sähkötalo, SI011. Come see it for yourself!
 
 If you wish to pay the membership fee (5€/school year) the account is:
 
