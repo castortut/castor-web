@@ -21,6 +21,14 @@ addressTitle2: Real life™
 addressContent2: Tampereen teekkarien avaruusteknillinen kerho Castor ry<br>Tampereen teknillinen yliopisto<br>Korkeakoulunkatu 3<br>33720 Tampere
 boardTitle: Boards through the ages
 boards:
+  - title: 2023
+    board: >-
+      **Chairman:** Markus Nuuja<br>
+      **Vice-chairman:** Elias Meyer<br>
+      **Secretary:** Joonas Pinomäki<br>
+      **Treasurer:** Alma Mustonen<br>
+      **Information management:** Esa Varemo<br>
+      **PR/Social media:** Inka Sorvala
   - title: 2022
     board: >-
       **Chairman:** Markus Nuuja<br>
