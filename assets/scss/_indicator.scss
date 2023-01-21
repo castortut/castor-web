@@ -1,6 +1,9 @@
 .door-status-container {
+  width: 100%;
   p {
+    text-align: center;
     font-size: 0.8rem;
+    white-space: nowrap;
   }
   #indicator {
     display: inline-block;
