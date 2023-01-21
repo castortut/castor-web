@@ -39,19 +39,3 @@ function handleCollapseElementClick(e) {
 collapseElements.forEach((el) => {
   el.addEventListener('click', handleCollapseElementClick)
 });
-
-window.addEventListener("load", () => {
-  setTimeout(() =>
-      document.getElementById("telegram").href = "https://t" + "." + "me/joinchat/" + "ASDQH0zRe" + "8hmxB3" + "fRvkTfA",
-    1000);
-});
-
-if (window.netlifyIdentity) {
-  window.netlifyIdentity.on("init", user => {
-    if (!user) {
-      window.netlifyIdentity.on("login", () => {
-        document.location.href = "/admin/";
-      });
-    }
-  });
-}
