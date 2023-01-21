@@ -1,5 +1,4 @@
-baseurl = "/"
-productionurl = "https://avaruuskerho.fi/"
+baseurl = "https://avaruuskerho.fi/"
 languageCode = "en-us"
 languageLang = "en"
 title = "Castor"
