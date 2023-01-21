@@ -19,59 +19,59 @@
     </div>
     <p class="footer-text">Club evenings every Thursday, 6pm, room SI011.</p>
     <div class="door-status-container">
-      <p> <span id="indicator"></span><span>Clubroom door status: </span><span id="status">fetching</span></p>
-     <script>
-       const statusElement = document.getElementById('status');
-       const indicator = document.getElementById('indicator');
+      <p><span id="indicator"> </span><span>Clubroom door status:&nbsp;</span><span id="status">fetching</span></p>
+      <script>
+        const statusElement = document.getElementById('status');
+        const indicator = document.getElementById('indicator');
 
-       const fetchDoorStatus = async () => {
-         try {
-           console.log("Fetching door status.")
-           const response = await fetch("https://door0.api.avaruuskerho.fi")
+        const fetchDoorStatus = async () => {
+          try {
+            console.log("Fetching door status.")
+            const response = await fetch("https://door0.api.avaruuskerho.fi")
 
-           if (!response.ok) {
-             voiceComplaint()
-             console.log(response)
-           }
+            if (!response.ok) {
+              voiceComplaint()
+              console.log(response)
+            }
 
-           const data = await response.json();
+            const data = await response.json();
 
-           return data
-         }
-         catch (e) {
-           voiceComplaint()
-           console.log(e)
-         }
-       }
+            return data
+          }
+          catch (e) {
+            voiceComplaint()
+            console.log(e)
+          }
+        }
 
-       const voiceComplaint = () => {
-         statusElement.innerHTML = "Tell varesa his API is broken"
-         indicator.style.backgroundColor = "#9C27B0"
-       }
+        const voiceComplaint = () => {
+          statusElement.innerHTML = "Tell varesa his API is broken"
+          indicator.style.backgroundColor = "#9C27B0"
+        }
 
-       const setStatusToOpen = () => {
-         statusElement.innerHTML = "open"
-         indicator.style.backgroundColor = "#6CBB3C"
-       }
+        const setStatusToOpen = () => {
+          statusElement.innerHTML = "open"
+          indicator.style.backgroundColor = "#6CBB3C"
+        }
 
-       const setStatusToClosed = () => {
-         statusElement.innerHTML = "closed"
-         indicator.style.backgroundColor = "#D21404"
-       }
+        const setStatusToClosed = () => {
+          statusElement.innerHTML = "closed"
+          indicator.style.backgroundColor = "#D21404"
+        }
 
-       window.addEventListener("load", () => {
-         const doorStatus = fetchDoorStatus()
-         doorStatus["is_open"] ? setStatusToOpen() : setStatusToClosed()
-       });
+        window.addEventListener("load", () => {
+          const doorStatus = fetchDoorStatus()
+          doorStatus["is_open"] ? setStatusToOpen() : setStatusToClosed()
+        });
 
-       // obfuscate link
-       window.addEventListener("load", () => {
-        setTimeout(() =>
-            document.getElementById("telegram").href = "https://t" + "." + "me/joinchat/" + "ASDQH0zRe" + "8hmxB3" + "fRvkTfA",
-          1000);
-      });
+        // obfuscate link
+        window.addEventListener("load", () => {
+          setTimeout(() =>
+              document.getElementById("telegram").href = "https://t" + "." + "me/joinchat/" + "ASDQH0zRe" + "8hmxB3" + "fRvkTfA",
+            1000);
+        });
 
-     </script>
- </div>
+      </script>
+    </div>
   </div>
 </footer>

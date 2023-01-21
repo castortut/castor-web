@@ -6,7 +6,7 @@
     <base href="{{ $.Site.BaseURL }}">
 
     <meta property="og:title" content="Space technology club Castor - {{ .Params.title }}" />
-    <meta property="og:url" content="{{ $.Site.BaseURL }}{{ .Permalink }}" />
+    <meta property="og:url" content="{{ .Permalink }}" />
     <meta property="og:image" content="/img/background.jpg">
 
     {{ if .Params.description }}
@@ -18,7 +18,7 @@
     {{ end }}
 
     <meta name="referrer" content="no-referrer">
-    <link rel="canonical" href="{{ $.Site.BaseURL }}{{ .Permalink }}"/>
+    <link rel="canonical" href="{{ .Permalink }}"/>
 
     <title>Space technology club Castor - {{ .Params.title }}</title>
 
