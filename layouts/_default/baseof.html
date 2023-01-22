@@ -49,15 +49,15 @@
     <link rel="stylesheet" href="{{ $style.Permalink }}">
 
   </head>
-  <body style="background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 0%,rgba(0,0,0,0) 70%)">
-    {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch ("background.jpg") }}
-    {{ $resizedExtraLarge := $imageResource.Fill "1440x750 q80 Top" }}
-    {{ $resizedLarge := $imageResource.Fill "1440x750 q80 Top" }}
-    {{ $resizedMediumLarge := $imageResource.Fill "1080x600 q80 Top" }}
-    {{ $resizedMedium := $imageResource.Fill "996x600 q80 Top" }}
-    {{ $resizedSmallMedium := $imageResource.Fill "768x600 q80 Top" }}
-    {{ $resizedSmall := $imageResource.Fill "576x600 q80 Top" }}
-    {{ $resizedExtraSmall := $imageResource.Fill "384x600 q80 Top" }}
+  <body style="background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 0%,rgba(0,0,0,0) 25%)">
+    {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch ("bgextended.png") }}
+    {{ $resizedExtraLarge := $imageResource.Fill "1440x3300 q90 Top webp" }}
+    {{ $resizedLarge := $imageResource.Fill "1440x3350 q90 Top webp" }}
+    {{ $resizedMediumLarge := $imageResource.Fill "1080x2600 q90 Top webp" }}
+    {{ $resizedMedium := $imageResource.Fill "996x2900 q90 Top webp" }}
+    {{ $resizedSmallMedium := $imageResource.Fill "768x2820 q90 Top webp" }}
+    {{ $resizedSmall := $imageResource.Fill "576x3000 q90 Top webp" }}
+    {{ $resizedExtraSmall := $imageResource.Fill "384x600 q90 Top webp" }}
     <picture>
       <source media="(min-width: 1440px)" srcset="{{ $resizedExtraLarge.RelPermalink }}">
       <source media="(min-width: 1080px)" srcset="{{ $resizedLarge.RelPermalink }}">
