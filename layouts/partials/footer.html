@@ -59,8 +59,8 @@
           indicator.style.backgroundColor = "#D21404"
         }
 
-        window.addEventListener("load", () => {
-          const doorStatus = fetchDoorStatus()
+        window.addEventListener("load", async () => {
+          const doorStatus = await fetchDoorStatus()
           doorStatus["is_open"] ? setStatusToOpen() : setStatusToClosed()
         });
 
