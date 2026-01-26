@@ -21,6 +21,25 @@ addressTitle2: Real life™
 addressContent2: Tampereen teekkarien avaruusteknillinen kerho Castor ry<br>Tampereen teknillinen yliopisto<br>Korkeakoulunkatu 3<br>33720 Tampere
 boardTitle: Boards through the ages
 boards:
+  - title: 2026
+    board: >-
+      **Chair:** Veeti Pekonen<br>
+      **Vice chair:** Eero Sulameri<br>
+      **Secretary:** Matti Kujala<br>
+      **Treasurer:** Jose Aronen<br>
+      **Information management:** Esa Varemo<br>
+      **Cave master:** Eero Sulameri<br>
+      **Events coordinator:** Aino Vähäuski<br>
+      **Head of equality:** Johanna Pietarinen<br>
+  - title: 2025
+    board: >-
+      **Chair:** Veeti pekonen<br>
+      **Vice chair:** Inka Sorvala<br>
+      **Secretary:** Alma Mustonen<br>
+      **Treasurer:** Jose Aronen<br>
+      **Events coordinator:** Aino Vähäuski<br>
+      **Head of club cooperation:** Inka Sorvala<br>
+      **Information management:** Esa Varemo<br>
   - title: 2024
     board: >-
       **Chair:** Inka Sorvala<br>
